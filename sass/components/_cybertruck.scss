@@ -1,16 +1,13 @@
-.cybertruck{
-    div{
+.cybertruck div{
         h3{
         width: 208px;
         height: 27px;
         font-family: 'Rubik';
         font-weight: 400;
         font-size: 24px;
-        color: #000000;}
-    }
-    }
-    .cybertruck{
-    div{
+        color: #000000;
+        }
+        
         p{
             width: 277px;
             height: 204px;
@@ -18,16 +15,17 @@
             font-weight: 400;
             font-size: 24px;
             color: #000000;
-                }
         }
     }
-    .cybertruck-1{
+
+.cybertruck-1{
     width: 167px;
     height: 90px;
     background: url(/image/cybertruck-1.png);
-    }
-    .cybertruck-2{
+}
+
+.cybertruck-2{
         width: 167px;
         height: 90px;
         background: url(/image/cybertruck-2.png);
-    }
+}
