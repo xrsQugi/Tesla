@@ -1,0 +1,28 @@
+.our_companies{
+    width: 100%;
+    background: #B1C7E5;
+    
+    .companies{
+        width: 279px;
+        height: 399px;
+        background: #FFFFFF;
+    }
+    
+    .image-comp-1{
+        width: 279px;
+        height: 264px;
+        background: url(/image/space-x.png);
+    }
+    
+    .image-comp-2{
+        width: 279px;
+        height: 264px;
+        background: url(/image/neuralink.png);
+    }
+    
+    .image-comp-3{
+        width: 279px;
+        height: 264px;
+        background: url(/image/open-ai.png);
+    }
+  }
