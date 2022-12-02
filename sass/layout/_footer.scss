@@ -1,0 +1,144 @@
+// footer mobile
+footer{
+    background-color: $backgroundColor;
+    padding: 1px 0 10px;
+
+    .top-footer{
+        display: flex;
+        flex-direction: column;
+        margin: 0 15px ;
+    }
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+
+    img{
+        width: 165px;
+        height: 33px;
+    }
+}
+
+.copyright{
+    p{
+        margin-top: 14px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: $textColor;
+    }
+}
+
+.media {
+    p{
+        margin-top: 15px;
+        text-align: center;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        color: $textColor;
+    }
+}
+
+.media-list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 9px;
+
+    div{
+        height: 36px;
+        width: 36px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $siteColor;
+        transition: .4s background-color ease-in-out;
+
+        &:hover{
+            background-color: $textColor;
+        }
+
+        &:hover svg{
+            fill: $backgroundColor;
+        }
+
+    }
+
+    svg{
+        width: 20px;
+        height: 14px;
+        fill:$textColor;
+        transition: .4s fill ease-in-out;
+    }
+}
+
+.tesla-2022{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: center;
+    color: $textColor;
+    margin-top: 17px;
+}
+
+// footer computer
+@media screen and (min-width: 900px){
+    footer{
+        padding: 11px 0 14px;
+
+        .top-footer{
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0 138px;
+        }
+    }
+
+    .media{
+        p{
+            text-align: left;
+            font-size: 24px;
+        }
+    }
+
+    .media-list{
+        gap: 20px;
+        margin-top: 9px;
+    
+        div{
+            width: 65px;
+            height: 65px;
+        }
+    
+        svg{
+            width: 25px;
+            height: 35px;
+        }
+    }
+
+    .tesla-2022{
+        font-size: 20px;
+    }
+
+    .logo{
+        img{
+            width: 251px;
+            height: 53px;
+        }
+    }
+
+    .copyright{
+        p{
+            margin-top: 28px;
+            font-size: 24px;
+        }
+    } 
+}
