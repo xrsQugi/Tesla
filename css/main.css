@@ -464,4 +464,128 @@ footer .top-footer {
     margin-top: 28px;
     font-size: 24px;
   }
+}
+h2 {
+  font-family: "Comfortaa";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+  margin-top: 47px;
+}
+
+.members {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 47px 0;
+  gap: 50px;
+}
+
+.member {
+  width: 248px;
+  height: 320px;
+  background: #B1C7E5;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px 0;
+}
+.member img {
+  width: 152px;
+  height: 152px;
+}
+.member h4 {
+  font-family: "Comfortaa";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  width: 122px;
+  margin-top: 36px;
+}
+.member p {
+  font-family: "Comfortaa";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 7px;
+}
+
+.soc-med {
+  margin-top: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+}
+.soc-med div {
+  width: 43px;
+  height: 43px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s background-color ease-in-out;
+}
+.soc-med div:hover {
+  background-color: #000000;
+}
+.soc-med div:hover svg {
+  fill: #B1C7E5;
+}
+.soc-med svg {
+  width: 17px;
+  height: 17px;
+  fill: #000000;
+  transition: 0.4s fill ease-in-out;
+}
+
+@media screen and (min-width: 900px) {
+  h2 {
+    margin-top: 75px;
+  }
+  .members {
+    margin: 75px 0;
+    gap: 68px;
+  }
+  .member {
+    width: 370px;
+    height: 477px;
+    padding: 28px 0;
+  }
+  .member img {
+    width: 227px;
+    height: 227px;
+  }
+  .member h4 {
+    font-size: 24px;
+    line-height: 27px;
+    width: 165px;
+    margin-top: 24px;
+  }
+  .member p {
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 10px;
+  }
+  .soc-med {
+    margin-top: 30px;
+    gap: 36px;
+  }
+  .soc-med div {
+    width: 65px;
+    height: 65px;
+  }
+  .soc-med svg {
+    width: 26px;
+    height: 26px;
+  }
 }/*# sourceMappingURL=main.css.map */
