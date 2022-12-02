@@ -1,0 +1,42 @@
+.product{
+.gallery-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+    h2{
+        font-family: 'Comfortaa';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 27px;
+        text-align: center;
+        margin: 10% 0;
+        color: #000000;
+    }
+    .Gallery-image-4{
+        margin: 1%;
+        width: 164px;
+        height: 212px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
+        background-image: url(/image/Product-4.png);
+    }
+    .Gallery-image-3{
+        margin: 3%;
+        width: 164px;
+        height: 212px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
+        background-image: url(/image/Product-3.png);  
+    }
+    .Gallery-image-2{
+        margin: 3%;
+        width: 164px;
+        height: 117px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35)); 
+        background-image: url(/image/Product-2.png);  
+    }
+    .Gallery-image-1{
+        width: 164px;
+        height: 118px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
+        background-image: url(/image/Product-1.png);
+    }
+}

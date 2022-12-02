@@ -1,28 +1,71 @@
 .our_companies{
     width: 100%;
     background: #B1C7E5;
-    
+    text-align:center;
+    margin-top: 20%;
+    h2{
+    padding: 5% 0 0 0;
+    font-family: 'Comfortaa';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    color: #000000;
+    }
     .companies{
+        display: flex;
+        justify-content: center;
+        flex-wrap:wrap;
+    }
+    .companie{
         width: 279px;
-        height: 399px;
+        height: 400px;
         background: #FFFFFF;
-    }
-    
-    .image-comp-1{
-        width: 279px;
-        height: 264px;
-        background: url(/image/space-x.png);
-    }
-    
-    .image-comp-2{
-        width: 279px;
-        height: 264px;
-        background: url(/image/neuralink.png);
-    }
-    
-    .image-comp-3{
-        width: 279px;
-        height: 264px;
-        background: url(/image/open-ai.png);
+        margin: 5% 0;
+        transition: 0.5s;
+        button{
+            box-sizing: border-box;
+            width: 182px;
+            height: 47px;
+            border: 1px solid #000000;
+            background-color: white;
+            border-radius: 20px;
+            font-family: 'Comfortaa';
+            font-weight: 400;
+            font-size: 18px;
+            text-align: center;
+            transition: 0.5s;
+            &:focus{
+                background-color: #000000;
+                color: white;
+            }
+        }
+        h4{
+            margin: 10px 0 10px 0;
+            width: 279px;
+            height: 50px;
+            font-family: 'Comfortaa';
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+        }
+        .image-comp-1{
+            width: 279px;
+            height: 264px;
+            background-image: url(/image/space-x.png);
+        }
+        
+        .image-comp-2{
+            width: 279px;
+            height: 264px;
+            background-image: url(/image/neuralink.png);
+        }
+        
+        .image-comp-3{
+            width: 279px;
+            height: 264px;
+            background-image: url(/image/open-ai.png);
+        }
     }
   }

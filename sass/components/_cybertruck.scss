@@ -1,31 +1,43 @@
-.cybertruck div{
-        h3{
-        width: 208px;
-        height: 27px;
-        font-family: 'Rubik';
-        font-weight: 400;
-        font-size: 24px;
-        color: #000000;
-        }
-        
+.H3-Cybertruck{
+    height: 37px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    margin-left: 2%;
+    }
+.cybertruck{
+width: 100%;
+background: #F5F5F5;
+padding-top: 5%;
+    div{
+        display: flex;
         p{
-            width: 277px;
+            margin-left: 2%;
             height: 204px;
+            width: 75%;
             font-family: 'Jost';
             font-weight: 400;
-            font-size: 24px;
+            font-size: 19px;
             color: #000000;
         }
     }
-
-.cybertruck-1{
-    width: 167px;
-    height: 90px;
-    background: url(/image/cybertruck-1.png);
+    .cybertruck-image{
+        width: 100%;    
+    }
 }
 
+.cybertruck-1{
+    width: 265px;
+    background-image: url(/image/cybertruck-1.png);
+    background-repeat: no-repeat;
+    margin-left: 5%;
+}
 .cybertruck-2{
-        width: 167px;
-        height: 90px;
-        background: url(/image/cybertruck-2.png);
+        margin:10% 0 0 0 ;
+        width: 264px;
+        height: 100px;
+        background-image: url(/image/cybertruck-2.png);
+        background-repeat: no-repeat;
+        margin-left: 5%;
 }
