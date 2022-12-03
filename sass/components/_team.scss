@@ -1,0 +1,141 @@
+h2{
+    font-family: 'Comfortaa';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: $textColor;
+    margin-top: 47px;
+}
+
+.members{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 47px 0;
+    gap: 50px;
+}
+
+.member{
+    width: 248px;
+    height: 320px;
+    background: $backgroundColor;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 0;
+
+    img{
+        width: 152px;
+        height: 152px;
+    }
+
+    h4{
+        font-family: 'Comfortaa';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+        color: $textColor;
+        width: 122px;
+        margin-top: 36px;
+    }
+
+    p{
+        font-family: 'Comfortaa';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 13px;
+        text-align: center;
+        color: $mainColor;
+        margin-top: 7px;
+    }
+}
+
+.soc-med{
+    margin-top: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+
+
+    div{
+        width: 43px;
+        height: 43px;
+        background: $mainColor;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .4s background-color ease-in-out;
+
+        &:hover{
+            background-color: $textColor;
+        }
+
+        &:hover svg{
+            fill: $backgroundColor;
+        }
+    }
+
+    svg{
+        width: 17px;
+        height: 17px;
+        fill:$textColor;
+        transition: .4s fill ease-in-out;
+    }
+}
+
+@media screen and (min-width: 900px){
+    h2{
+        margin-top: 75px;
+    }
+    
+    .members{
+        margin: 75px 0;
+        gap: 68px;
+    }
+    
+    .member{
+        width: 370px;
+        height: 477px;
+        padding: 28px 0;
+    
+        img{
+            width: 227px;
+            height: 227px;
+        }
+    
+        h4{
+            font-size: 24px;
+            line-height: 27px;
+            width: 165px;
+            margin-top: 24px;
+        }
+    
+        p{
+            font-size: 16px;
+            line-height: 18px;
+            margin-top: 10px;
+        }
+    }
+    
+    .soc-med{
+        margin-top: 30px;
+        gap: 36px;
+    
+    
+        div{
+            width: 65px;
+            height: 65px;
+        }
+    
+        svg{
+            width: 26px;
+            height: 26px;
+        }
+    }
+}
