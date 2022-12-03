@@ -1,10 +1,9 @@
-@import "./layout/header";
 @import "./base/reset";
-@import "./utils/color";    
-@import "./components/model-Y";
-@import "./components/hero";
-@import "./components/cybertruck";
+@import "./utils/colors";   
+@import "./layout/header";
 @import "./components/roadster";
-@import "./components/products";
+@import "./components/cybertruck";
 @import "./components/companies";
+@import "./components/products";
 @import "./layout/footer";
+@import "./components/team";
