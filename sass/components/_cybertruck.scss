@@ -20,6 +20,9 @@ padding-top: 5%;
             font-weight: 400;
             font-size: 19px;
             color: #000000;
+            .cyber-comp{
+                display: none;
+            }
         }
     }
     .cybertruck-image{
@@ -40,4 +43,57 @@ padding-top: 5%;
         background-image: url(/image/cybertruck-2.png);
         background-repeat: no-repeat;
         margin-left: 5%;
+}
+@media screen and (min-width: 1440px) {
+    .H3-Cybertruck{
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+    }
+    .cybertruck{
+    width: 100%;
+    height: 461px;
+    background: #F5F5F5;
+            div{  
+                display: flex;
+                justify-content: flex-end;
+                span{    
+                    margin-right: 10%;
+                p{
+                    margin-top: 15%;
+                    width: 360px;
+                    height: 0;                   
+                    font-family: 'Jost';
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 35px;                   
+                    color: #000000;
+                    .cyber-comp{
+                        display: block;
+                    }
+                }
+            } 
+            }
+            .cybertruck-image{  
+                height: 400px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center; 
+            }
+    }
+    .cybertruck-1{
+        margin-right: 5%;
+        margin-bottom:25%;
+        width: 365px;
+        height: 197px;
+        background-image: url(/image/cybertruck-comp.png);
+    }
+    .cybertruck-2{
+        margin: 0;
+            width: 264px;
+            height: 162px;     
+            background-image: url(/image/cybertruck-comp-2.png);
+    }
 }
