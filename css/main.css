@@ -294,60 +294,379 @@ label span::after {
   }
 }
 
-.cybertruck div h3 {
-  width: 208px;
-  height: 27px;
+.H3-Cybertruck {
+  height: 37px;
   font-family: "Rubik";
   font-weight: 400;
   font-size: 24px;
   color: #000000;
+  margin-left: 2%;
+}
+
+.cybertruck {
+  width: 100%;
+  background: #F5F5F5;
+  padding-top: 5%;
+}
+.cybertruck div {
+  display: flex;
 }
 .cybertruck div p {
-  width: 277px;
+  margin-left: 2%;
   height: 204px;
+  width: 75%;
   font-family: "Jost";
   font-weight: 400;
-  font-size: 24px;
+  font-size: 19px;
   color: #000000;
+}
+.cybertruck div p .cyber-comp {
+  display: none;
+}
+.cybertruck .cybertruck-image {
+  width: 100%;
 }
 
 .cybertruck-1 {
-  width: 167px;
-  height: 90px;
-  background: url(/image/cybertruck-1.png);
+  width: 265px;
+  background-image: url(/photos/cybertruck-1.png);
+  background-repeat: no-repeat;
+  margin-left: 5%;
 }
 
 .cybertruck-2 {
-  width: 167px;
-  height: 90px;
-  background: url(/image/cybertruck-2.png);
+  margin: 10% 0 0 0;
+  width: 264px;
+  height: 100px;
+  background-image: url(/photos/cybertruck-2.png);
+  background-repeat: no-repeat;
+  margin-left: 5%;
 }
 
+@media screen and (min-width: 1440px) {
+  .H3-Cybertruck {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+  }
+  .cybertruck {
+    width: 100%;
+    height: 461px;
+    background: #F5F5F5;
+  }
+  .cybertruck div {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .cybertruck div span {
+    margin-right: 10%;
+  }
+  .cybertruck div span p {
+    margin-top: 15%;
+    width: 360px;
+    height: 0;
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+  }
+  .cybertruck div span p .cyber-comp {
+    display: block;
+  }
+  .cybertruck .cybertruck-image {
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .cybertruck-1 {
+    margin-right: 5%;
+    margin-bottom: 25%;
+    width: 365px;
+    height: 197px;
+    background-image: url(/photos/cybertruck-comp.png);
+  }
+  .cybertruck-2 {
+    margin: 0;
+    width: 264px;
+    height: 162px;
+    background-image: url(/photos/cybertruck-comp-2.png);
+  }
+}
 .our_companies {
   width: 100%;
   background: #B1C7E5;
+  text-align: center;
+  margin-top: 20%;
+}
+.our_companies h2 {
+  padding: 5% 0 0 0;
+  font-family: "Comfortaa";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  color: #000000;
 }
 .our_companies .companies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.our_companies .companie {
   width: 279px;
-  height: 399px;
+  height: 400px;
   background: #FFFFFF;
+  margin: 5% 0;
+  transition: 0.5s;
 }
-.our_companies .image-comp-1 {
+.our_companies .companie button {
+  box-sizing: border-box;
+  width: 182px;
+  height: 47px;
+  border: 1px solid #000000;
+  background-color: white;
+  border-radius: 20px;
+  font-family: "Comfortaa";
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  transition: 0.4s background-color ease-in-out;
+}
+.our_companies .companie button:hover {
+  background-color: #000000;
+}
+.our_companies .companie button:hover a {
+  color: #FFFFFF;
+}
+.our_companies .companie button a {
+  width: 182px;
+  height: 47px;
+  color: #000000;
+  transition: 0.4s color ease-in-out;
+}
+.our_companies .companie h4 {
+  margin: 10px 0 10px 0;
+  width: 279px;
+  height: 50px;
+  font-family: "Comfortaa";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+.our_companies .companie .image-comp-1 {
   width: 279px;
   height: 264px;
-  background: url(/image/space-x.png);
+  background-image: url(/photos/space-x.png);
 }
-.our_companies .image-comp-2 {
+.our_companies .companie .image-comp-2 {
   width: 279px;
   height: 264px;
-  background: url(/image/neuralink.png);
+  background-image: url(/photos/neuralink\ \(2\).png);
 }
-.our_companies .image-comp-3 {
+.our_companies .companie .image-comp-3 {
   width: 279px;
   height: 264px;
-  background: url(/image/open-ai.png);
+  background-image: url(/photos/open-ai.png);
 }
 
+@media screen and (min-width: 1440px) {
+  .our_companies {
+    width: 100%;
+    height: 760px;
+    background: #B1C7E5;
+    margin: 0;
+  }
+  .our_companies h2 {
+    margin: 0;
+    font-family: "Comfortaa";
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 5%;
+  }
+  .our_companies .companies {
+    display: flex;
+    justify-content: center;
+  }
+  .our_companies .companie {
+    width: 365px;
+    height: 520px;
+    background: #FFFFFF;
+    margin: 5% 0;
+    transition: 0.5s;
+    text-align: center;
+    margin: 0 1%;
+  }
+  .our_companies .companie button {
+    margin-top: 5%;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 193px;
+    font-family: "Comfortaa";
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    transition: 0.5s;
+  }
+  .our_companies .companie button a {
+    width: 235px;
+    height: 59px;
+    color: #000000;
+    transition: 0.4s color ease-in-out;
+  }
+  .our_companies .companie button a:hover {
+    color: white;
+  }
+  .our_companies .companie button:hover {
+    background-color: #000000;
+    color: white;
+  }
+  .our_companies .companie h4 {
+    width: 100%;
+    font-family: "Comfortaa";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    color: #000000;
+  }
+  .our_companies .companie .image-comp-1 {
+    width: 365px;
+    height: 345px;
+    background: url(/photos/space-x-comp.png);
+  }
+  .our_companies .companie .image-comp-2 {
+    width: 365px;
+    height: 345px;
+    background: url(/photos/neuralink-comp.png);
+  }
+  .our_companies .companie .image-comp-3 {
+    width: 365px;
+    height: 345px;
+    background: url(/photos/open-ai-comp.png);
+  }
+}
+.product {
+  height: 450PX;
+}
+.product .gallery-section {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.product h2 {
+  font-family: "Comfortaa";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+  margin: 10% 0;
+  color: #000000;
+}
+.product .Gallery-image-4 {
+  position: absolute;
+  top: 130px;
+  left: 2%;
+  width: 164px;
+  height: 212px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
+  background-image: url(/photos/Product-4.png);
+}
+.product .Gallery-image-3 {
+  position: absolute;
+  left: 50%;
+  width: 164px;
+  height: 212px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
+  background-image: url(/photos/Product-3.png);
+}
+.product .Gallery-image-2 {
+  position: absolute;
+  width: 164px;
+  left: 2%;
+  height: 117px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
+  background-image: url(/photos/Product-2.png);
+}
+.product .Gallery-image-1 {
+  position: absolute;
+  left: 50%;
+  top: 230px;
+  width: 164px;
+  height: 118px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
+  background-image: url(/photos/Product-1.png);
+}
+
+@media screen and (min-width: 1440px) {
+  .product {
+    width: 100%;
+    height: 650px;
+    background: #F5F5F5;
+    padding-top: 5%;
+  }
+  .product h2 {
+    width: 100%;
+    margin: 0;
+    font-family: "Comfortaa";
+    font-weight: 400;
+    font-size: 48px;
+  }
+  .product .gallery-section {
+    margin-left: 7%;
+  }
+  .product .Gallery-image-comp {
+    margin: 0;
+    position: absolute;
+    width: 250px;
+    height: 180px;
+    left: 100px;
+    top: 320px;
+    background: url(/photos/Product-comp-4.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  .product .Gallery-image-4 {
+    margin: 0;
+    width: 450px;
+    height: 180px;
+    left: 370px;
+    top: 320px;
+    background: url(/photos/Product-comp-5.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  .product .Gallery-image-3 {
+    margin: 0;
+    width: 350px;
+    height: 400px;
+    left: 840px;
+    top: 100px;
+    background: url(/photos/Product-comp-3.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  .product .Gallery-image-2 {
+    margin: 0;
+    width: 350px;
+    height: 200px;
+    left: 470px;
+    top: 100px;
+    background: url(/photos/Product-comp-2.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  .product .Gallery-image-1 {
+    margin: 0;
+    width: 350px;
+    height: 200px;
+    left: 100px;
+    top: 100px;
+    background: url(/photos/Product-comp-1.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+}
 footer {
   background-color: #B1C7E5;
   padding: 1px 0 10px;
@@ -574,7 +893,7 @@ h2 {
   .member p {
     font-size: 16px;
     line-height: 18px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .soc-med {
     margin-top: 30px;
