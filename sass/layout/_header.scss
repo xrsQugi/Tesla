@@ -1,5 +1,8 @@
 .navigation {
     display: none;
+    @media screen and (min-width: 768px) {
+      display: block;
+    }
     @media screen and (min-width: 1440px) {
         display: block;
     }
@@ -10,8 +13,14 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    @media screen and (min-width: 768px) {
+        background: url(../photos/blur_background.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
     @media screen and (min-width: 1440px) {
-        background: url(../photos/blur_background);
+        background: url(../photos/blur_background.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -34,12 +43,23 @@ header {
     padding: 12px 30px;
     
     &:hover {
-      background: $hoverColor;
+      background: rgba(255, 255, 255, 0.5);
       border-radius: 10px;
     }
+    @media screen and (min-width: 768px) {
+      font-size: 20px;
+    }
+}
+
+.logotip {
+  height: 38px;
+  width: 193px;
 }
 // ============================================================= nav_menu ============================================================================
 .nav_mobile {
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
     @media screen and (min-width: 1440px) {
         display: none;
     }
@@ -69,7 +89,7 @@ nav {
     font-size: 25px;
 
     &:hover {
-    color: $accentColor;
+    color: #BA1235;
     font-weight: 700;
     }
   }
@@ -183,6 +203,9 @@ nav {
     background: rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     padding: 19px 25px;
+    @media screen and (min-width: 768px) {
+      font-size: 34px;
+    }
     @media screen and (min-width:1440px) {
         font-size: 50px;
          padding: 54px 20px 34px 20px;
