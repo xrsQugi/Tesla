@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tesla</title>
+    <link rel="shortcut icon" href="./photos/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Jost&family=Rubik&display=swap" rel="stylesheet">
@@ -18,7 +19,7 @@
                 <li><a href="" class="navigation_a">Companies</a></li>
                 <li><img class="logotip" src="./photos/logo.png" alt="" width="251" height="53"></li>
                 <li><a href="" class="navigation_a">Shop</a></li>
-                <li><a href="" class="navigation_a">Accounts</a></li>
+                <li><a href="#media-list" class="navigation_a">Accounts</a></li>
             </ul>
         </nav>
         
@@ -34,16 +35,16 @@
                     </label>
                     <ul class="nav_menu">
                         <li class="nav_menu_item">
-                            <a href="#" class="nav_menu_link">About us</a>
+                            <a href="./about-us.html" class="nav_menu_link">About us</a>
                         </li>
                         <li class="nav_menu_item">
-                            <a href="#" class="nav_menu_link">Companies</a>
+                            <a href="#companies" class="nav_menu_link">Companies</a>
                         </li>
                         <li class="nav_menu_item">
-                            <a href="#" class="nav_menu_link">Shop</a>
+                            <a href="" class="nav_menu_link">Shop</a>
                         </li>
                         <li class="nav_menu_item">
-                            <a href="#" class="nav_menu_link">Accounts</a>
+                            <a href="#media-list" class="nav_menu_link">Accounts</a>
                         </li>
                     </ul>
                 </li>
@@ -72,28 +73,38 @@
                 </li>
             </ul>
         </div>
-            <section class="cybertruck">
-                <div>
-                     <h3>Tesla Cybertruck</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere in nisi voluptatum sint cumque autem cum vitae quis voluptatem explicabo ullam neque laborum, eligendi ratione aliquid reprehenderit assumenda modi mollitia!</p>
-                </div>
-                <!-- зображення -->
-                <div class="cybertruck-1"></div>
-                <div class="cybertruck-2"></div>
-            </section>
-            <section class="companies"><h2>All our companies</h2>
-                <div class="Gallery-image"><img></div>
-                <div class="Gallery-image"><img></div>
-                <div class="Gallery-image"><img></div>
-                <div class="Gallery-image"><img></div>
-                <div class="Gallery-image"><img></div>
-                <div class="Gallery-image"><img></div>
-            </section>
-            <section class="products">
-                <div class="Product"><img src="" alt=""><h4>Lorem Ipsum</h4><p></p><buttom></buttom></div>
-                <div class="Product"><img src="" alt=""><h4>Lorem Ipsum</h4><p></p><buttom></buttom></div>
-                <div class="Product"><img src="" alt=""><h4>Lorem Ipsum</h4><p></p><buttom></buttom></div>
-            </section> 
+        <section class="cybertruck">
+            <div>
+                <span><h3 class="H3-Cybertruck">Tesla Cybertruck</h3><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<span class="cyber-comp">when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span></p></span>
+            </div>
+            <!-- зображення -->
+        <div class="cybertruck-image">
+            <div class="cybertruck-1"></div>
+            <div class="cybertruck-2"></div>
+        </div>
+        </section>
+
+        <section id="companies" class="our_companies">
+        <h2>Our Companies</h2>
+        <div class="companies">
+            <div class="companie"><div class="image-comp-1"></div><h4>Space Exploration Technologies</h4><a target="_blank" href="https://www.spacex.com/"><button>Learn More</button></a></div>
+            <div class="companie"><div class="image-comp-2"></div><h4>Neuralink Corporation</h4><a target="_blank" href="https://neuralink.com/"><button>Learn More</button></a></div>
+            <div class="companie"><div class="image-comp-3"></div><h4>Artificial intelligence (AI) research laboratory</h4><a target="_blank" href="https://openai.com/"><button>Learn More</button></a></div>
+        </div>
+        </section> 
+
+        <section class="product">
+            <div class="h2-prod">
+            <h2>Our Products</h2>
+        </div>
+        <div class="gallery-section">
+            <div class="Gallery-image-4"></div>
+            <div class="Gallery-image-3"></div>
+            <div class="Gallery-image-2"></div>
+            <div class="Gallery-image-1"></div>
+            <div class="Gallery-image-comp"></div>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="logo"><a href="https://www.tesla.com/"><img src="./photos/logo.png" alt="logo-tesla"></a></div>
@@ -105,10 +116,10 @@
             </div>
             <div class="media">
                 <p>Social - media:</p>
-                <ul class="media-list">
-                    <li><a href="https://www.instagram.com/teslamotors/?hl=ru"><div><svg><use href="./symbol-defs.svg#icon-instagram"></use></svg></div></a></li>
-                    <li><a href="https://www.youtube.com/channel/UC5WjFrtBdufl6CZojX3D8dQ"><div><svg><use href="./symbol-defs.svg#icon-youtube"></use></svg></div></a></li>
-                    <li><a href="https://twitter.com/Tesla?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><div><svg><use href="./symbols-defs.svg#icon-twitter"></use></svg></div></a></li>
+                <ul id="media-list" class="media-list">
+                    <li><a href="https://www.instagram.com/teslamotors/?hl=ru" target="_blank"><div><svg><use href="./symbol-defs.svg#icon-instagram"></use></svg></div></a></li>
+                    <li><a href="https://www.youtube.com/channel/UC5WjFrtBdufl6CZojX3D8dQ" target="_blank"><div><svg><use href="./symbol-defs.svg#icon-youtube"></use></svg></div></a></li>
+                    <li><a href="https://twitter.com/Tesla?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><div><svg><use href="./symbol-defs.svg#icon-twitter"></use></svg></div></a></li>
                 </ul>
             </div>
         </section>
