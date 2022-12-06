@@ -329,7 +329,7 @@ label span::after {
 
 .cybertruck-1 {
   width: 265px;
-  background-image: url(/photos/cybertruck-1.png);
+  background-image: url(../photos/cybertruck-1.png);
   background-repeat: no-repeat;
   margin-left: 5%;
 }
@@ -338,7 +338,7 @@ label span::after {
   margin: 10% 0 0 0;
   width: 264px;
   height: 100px;
-  background-image: url(/photos/cybertruck-2.png);
+  background-image: url(../photos/cybertruck-2.png);
   background-repeat: no-repeat;
   margin-left: 5%;
 }
@@ -387,13 +387,13 @@ label span::after {
     margin-bottom: 25%;
     width: 365px;
     height: 197px;
-    background-image: url(/photos/cybertruck-comp.png);
+    background-image: url(../photos/cybertruck-comp.png);
   }
   .cybertruck-2 {
     margin: 0;
     width: 264px;
     height: 162px;
-    background-image: url(/photos/cybertruck-comp-2.png);
+    background-image: url(../photos/cybertruck-comp-2.png);
   }
 }
 .our_companies {
@@ -907,4 +907,17 @@ h2 {
     width: 26px;
     height: 26px;
   }
+}
+.Top-prod {
+  margin: 5%;
+  width: 100%;
+  font-family: "Comfortaa";
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 23px;
+  color: rgba(54, 54, 54, 0.95);
+  mix-blend-mode: normal;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
 }/*# sourceMappingURL=main.css.map */
