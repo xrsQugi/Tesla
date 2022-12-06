@@ -1,0 +1,95 @@
+.photo_tesla {
+    width: 314px;
+    height: 314px;
+    @media screen and (min-width: 768px) {
+        height: 421px;
+        width: 421px;
+    }
+    @media screen and (min-width: 1440px) {
+        height: 569px;
+        width: 569px;
+    }
+}
+
+.newsletter_div {
+    background: #FFFFFF;
+    border: 1px solid #E4E5E4;
+    width: 310px;
+    margin-top: 33px;
+    margin-left: 5px;
+    margin-bottom: 27px;
+    @media screen and (min-width: 1440px) {
+        width: 480px;
+    }
+}
+
+.newsletter_ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.newsletter_ul_inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter_h3 {
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    color: #606060;
+    margin-top: 28px;
+    margin-bottom: 17px;
+    @media screen and (min-width: 1440px) {
+        font-size: 25px;
+    }
+}
+
+.newsletter_h3_ {
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 14px;
+    color: #606060;
+    margin-left: 16px;
+    @media screen and (min-width: 1440px) {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+}
+
+.newsletter_password {
+    border: 1px solid #E4E5E4;
+    width: 278px;
+    height: 46px;
+    margin-left: 16px;
+    margin-top: 1px;
+    margin-bottom: 13px;
+    @media screen and (min-width: 1440px) {
+        width: 424px;
+    }
+}
+
+.newsletter_button {
+    border: 1px solid #000;
+    background-color: #000;
+    color: #FFFFFF;
+    font-family: 'Comfortaa';
+    font-weight: 500;
+    font-size: 16px;
+    padding: 15px 94px 15px 94px;
+    margin: 23px 0 30px 16px;
+    @media screen and (min-width: 1440px) {
+        width: 424px;
+    }
+
+    &:hover {
+        color: #000;
+        background-color: #FFFFFF;
+        font-weight: bold;
+    }
+}
