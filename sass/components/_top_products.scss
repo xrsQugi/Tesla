@@ -22,7 +22,7 @@
     font-size: 24px;
     text-align: center;
     color: #000000;
-    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 30px;
     @media screen and (min-width: 768px) {
         font-size: 30px;
@@ -31,7 +31,8 @@
         margin: 0;
         font-size: 36px;
         text-align: left;
-        margin: 57px 0 44px 140px;
+        padding-top: 54px;
+        margin: 0 0 44px 140px;
     }
 }
 
