@@ -13,6 +13,9 @@
         text-align: center;
         margin: 10% 0;
         color: #000000;
+        justify-content: left; 
+        display: flex;
+        margin-left: 10%;
     }
     .Gallery-image-4{
         position: absolute;
@@ -59,14 +62,18 @@
         background: #F5F5F5;
         padding-top: 5%;
             h2{
-            width: 100%;
+
             margin: 0;        
             font-family: 'Comfortaa';
             font-weight: 400;
-            font-size: 48px;   
+            font-size: 48px;  
+            justify-content: left; 
+            display: flex;
+            margin-left: 10%;
         }
         .gallery-section{
-            margin-left:7%;
+            justify-content: center; 
+            display: flex;
         }
         .Gallery-image-comp{
             margin: 0;

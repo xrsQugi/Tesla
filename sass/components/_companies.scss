@@ -37,6 +37,7 @@
         
             &:hover{
                 background-color: #000000;
+                color: #FFFFFF;
             }
         
             &:hover a{
@@ -99,14 +100,17 @@
             margin-bottom: 5%;
         }
         .companies{
+            position: relative;
             display: flex;
             justify-content: center;
+            gap: 35px;
+            justify-content:space-around;
         }
         .companie{
+            margin: 15px;
             width: 365px;
             height: 520px;
             background: #FFFFFF;
-            margin: 5% 0;
             transition: 0.5s;
             text-align: center;
             margin: 0 1%;

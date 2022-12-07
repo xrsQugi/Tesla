@@ -519,6 +519,7 @@ label span::after {
 }
 .our_companies .companie button:hover {
   background-color: #000000;
+  color: #FFFFFF;
 }
 .our_companies .companie button:hover a {
   color: #FFFFFF;
@@ -573,14 +574,17 @@ label span::after {
     margin-bottom: 5%;
   }
   .our_companies .companies {
+    position: relative;
     display: flex;
     justify-content: center;
+    gap: 35px;
+    justify-content: space-around;
   }
   .our_companies .companie {
+    margin: 15px;
     width: 365px;
     height: 520px;
     background: #FFFFFF;
-    margin: 5% 0;
     transition: 0.5s;
     text-align: center;
     margin: 0 1%;
@@ -649,6 +653,9 @@ label span::after {
   text-align: center;
   margin: 10% 0;
   color: #000000;
+  justify-content: left;
+  display: flex;
+  margin-left: 10%;
 }
 .product .Gallery-image-4 {
   position: absolute;
@@ -693,14 +700,17 @@ label span::after {
     padding-top: 5%;
   }
   .product h2 {
-    width: 100%;
     margin: 0;
     font-family: "Comfortaa";
     font-weight: 400;
     font-size: 48px;
+    justify-content: left;
+    display: flex;
+    margin-left: 10%;
   }
   .product .gallery-section {
-    margin-left: 7%;
+    justify-content: center;
+    display: flex;
   }
   .product .Gallery-image-comp {
     margin: 0;
