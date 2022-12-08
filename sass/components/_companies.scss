@@ -82,12 +82,101 @@
     }
   }
 
+@media screen and (min-width: 768px) {
+    .our_companies{
+        margin: 0;
+        padding:0;
+        width: 100%;
+        background: #B1C7E5;
+        text-align:center;
+        margin-top: 0;
+        h2{
+        margin: 0;
+        padding: 5% 0;
+        font-family: 'Comfortaa';
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 27px;
+        color: #000000;
+        }
+        .companies{
+            display: flex;
+            justify-content: center;
+            flex-wrap:wrap;
+            gap:35px;
+        }
+        .companie{
+            width: 279px;
+            height: 400px;
+            background: #FFFFFF;
+            transition: 0.5s;
+            margin:2%;
+            button{
+                box-sizing: border-box;
+                width: 182px;
+                height: 47px;
+                border: 1px solid #000000;
+                background-color: white;
+                border-radius: 20px;
+                font-family: 'Comfortaa';
+                font-weight: 400;
+                font-size: 22px;
+                text-align: center;
+                transition: .4s background-color ease-in-out;
+            
+                &:hover{
+                    background-color: #000000;
+                    color: #FFFFFF;
+                }
+            
+                &:hover a{
+                    color: #FFFFFF;
+                }
+            
+                a{
+                    width: 182px;
+                    height: 47px;
+                    color: #000000;
+                    transition: .4s color ease-in-out;
+                }
+            } 
+            h4{
+                margin: 10px 0 10px 0;
+                width: 279px;
+                height: 50px;
+                font-family: 'Comfortaa';
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 20px;
+                text-align: center;
+                color: #000000;
+            }
+            .image-comp-1{
+                width: 279px;
+                height: 264px;
+                background-image: url(../photos/space-x.png);
+            }
+            
+            .image-comp-2{
+                width: 279px;
+                height: 264px;
+                background-image: url(../photos/neuralink\ \(2\).png);
+            }
+            
+            .image-comp-3{
+                width: 279px;
+                height: 264px;
+                background-image: url(../photos/open-ai.png);
+            }
+        }
+      }
+}
 
   @media screen and (min-width: 1440px) {
 
     .our_companies{
         width: 100%;
-        height: 760px;
+        height: 860px;
         background: #B1C7E5;
         margin:0;
         h2{
