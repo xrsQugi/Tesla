@@ -780,196 +780,130 @@ label span::after {
   }
 }
 .product {
-  height: 450PX;
-}
-.product .gallery-section {
+  padding: 26px 0 0;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.gallery-section {
+  height: 336px;
+  width: 360px;
+  margin: 26px auto;
   position: relative;
 }
-.product h2 {
-  font-family: "Comfortaa";
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 27px;
-  text-align: center;
-  margin: 10% 0;
-  color: #000000;
-  justify-content: left;
-  display: flex;
-  margin-left: 10%;
-}
-.product .Gallery-image-4 {
+.gallery-section .gallery-image {
   position: absolute;
-  top: 130px;
-  left: 2%;
-  width: 164px;
-  height: 212px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
-  background-image: url(../photos/Product-4.png);
 }
-.product .Gallery-image-3 {
-  position: absolute;
-  left: 50%;
+.gallery-section .g-i-1 {
   width: 164px;
-  height: 212px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
-  background-image: url(../photos/Product-3.png);
-}
-.product .Gallery-image-2 {
-  position: absolute;
-  width: 164px;
-  left: 2%;
   height: 117px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
-  background-image: url(../photos/Product-2.png);
+  left: 10px;
+  top: 0px;
+  background: url(../photos/Product-1.png);
 }
-.product .Gallery-image-1 {
-  position: absolute;
-  left: 50%;
-  top: 230px;
+.gallery-section .g-i-2 {
   width: 164px;
+  height: 212px;
+  left: 185px;
+  top: 0px;
+  background: url(../photos/Product-2.png);
+}
+.gallery-section .g-i-3 {
+  width: 164px;
+  height: 212px;
+  left: 10px;
+  top: 124px;
+  background: url(../photos/Product-3.png);
+}
+.gallery-section .g-i-4 {
+  width: 165px;
   height: 118px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
-  background-image: url(../photos/Product-1.png);
+  left: 185px;
+  top: 218px;
+  background: url(../photos/Product-4.png);
 }
 
 @media screen and (min-width: 768px) {
-  .product {
-    width: 100%;
-    height: 480px;
-    background: #F5F5F5;
-    padding-top: 5%;
+  .gallery-section {
+    width: 617px;
+    height: 221px;
   }
-  .product h2 {
-    margin: 0;
-    font-family: "Comfortaa";
-    font-weight: 400;
-    font-size: 38px;
-    justify-content: left;
-    display: flex;
-    margin-left: 5%;
+  .gallery-section .g-i-1 {
+    width: 192px;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+    background: url(../photos/Product-1-laptop.png);
   }
-  .product .gallery-section {
-    justify-content: center;
-    display: flex;
+  .gallery-section .g-i-2 {
+    width: 195px;
+    height: 220px;
+    left: 422px;
+    top: 0px;
+    background: url(../photos/Product-2-laptop.png);
   }
-  .product .Gallery-image-comp {
-    margin: 0;
-    position: absolute;
-    width: 170px;
-    height: 130px;
-    left: 10px;
-    top: 250px;
-    background: url(../photos/Product-comp-4.png);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  .gallery-section .g-i-3 {
+    width: 194px;
+    height: 111px;
+    left: 210px;
+    top: 0px;
+    background: url(../photos/Product-3-laptop.png);
   }
-  .product .Gallery-image-4 {
-    background-size: 10%;
-    margin: 0;
-    width: 370px;
-    height: 130px;
-    left: 200px;
-    top: 250px;
-    background: url(../photos/Product-comp-5.png);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  .gallery-section .g-i-4 {
+    width: 245px;
+    height: 104px;
+    left: 159px;
+    top: 116px;
+    background: url(../photos/Product-4-laptop.png);
   }
-  .product .Gallery-image-3 {
-    background-size: 10%;
-    margin: 0;
-    width: 170px;
-    height: 300px;
-    left: 580px;
-    top: 80px;
-    background: url(../photos/Product-comp-3.png);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  }
-  .product .Gallery-image-2 {
-    background-size: 10%;
-    margin: 0;
-    width: 270px;
-    height: 150px;
-    left: 300px;
-    top: 80px;
-    background: url(../photos/Product-comp-2.png);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  }
-  .product .Gallery-image-1 {
-    background-size: 10%;
-    margin: 0;
-    width: 270px;
-    height: 150px;
-    left: 10px;
-    top: 80px;
-    background: url(../photos/Product-comp-1.png);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  .gallery-section .g-i-5 {
+    width: 139px;
+    height: 104px;
+    left: 0px;
+    top: 116px;
+    background: url(../photos/Product-5-laptop.png);
   }
 }
-@media screen and (min-width: 1440px) {
-  .product {
-    width: 100%;
-    height: 650px;
-    background: #F5F5F5;
-    padding-top: 5%;
+@media screen and (min-width: 1200px) {
+  .gallery-section {
+    width: 1166px;
+    height: 417px;
   }
-  .product h2 {
-    margin: 0;
-    font-family: "Comfortaa";
-    font-weight: 400;
-    font-size: 48px;
-    justify-content: left;
-    display: flex;
-    margin-left: 10%;
+  .gallery-section .g-i-1 {
+    width: 363px;
+    height: 211px;
+    left: 0px;
+    top: 0px;
+    background: url(../photos/Product-1-comp.png);
   }
-  .product .gallery-section {
-    justify-content: center;
-    display: flex;
+  .gallery-section .g-i-2 {
+    width: 366px;
+    height: 417px;
+    left: 800px;
+    top: 0px;
+    background: url(../photos/Product-2-comp.png);
   }
-  .product .Gallery-image-comp {
-    margin: 0;
-    position: absolute;
-    width: 250px;
-    height: 180px;
-    left: 100px;
-    top: 320px;
-    background: url(../photos/Product-comp-4.png);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  .gallery-section .g-i-3 {
+    width: 366px;
+    height: 209px;
+    left: 398px;
+    top: 0px;
+    background: url(../photos/Product-3-comp.png);
   }
-  .product .Gallery-image-4 {
-    margin: 0;
-    width: 450px;
-    height: 180px;
-    left: 370px;
-    top: 320px;
-    background: url(../photos/Product-comp-5.png);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  .gallery-section .g-i-4 {
+    width: 463px;
+    height: 197px;
+    left: 300px;
+    top: 220px;
+    background: url(../photos/Product-4-comp.png);
   }
-  .product .Gallery-image-3 {
-    margin: 0;
-    width: 350px;
-    height: 400px;
-    left: 840px;
-    top: 100px;
-    background: url(../photos/Product-comp-3.png);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  }
-  .product .Gallery-image-2 {
-    margin: 0;
-    width: 350px;
-    height: 200px;
-    left: 470px;
-    top: 100px;
-    background: url(../photos/Product-comp-2.png);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  }
-  .product .Gallery-image-1 {
-    margin: 0;
-    width: 350px;
-    height: 200px;
-    left: 100px;
-    top: 100px;
-    background: url(../photos/Product-comp-1.png);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  .gallery-section .g-i-5 {
+    width: 264px;
+    height: 197px;
+    left: 0px;
+    top: 220px;
+    background: url(../photos/Product-5-comp.png);
   }
 }
 footer {
