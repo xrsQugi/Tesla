@@ -15,15 +15,9 @@ header {
     background-size: cover;
     @media screen and (min-width: 768px) {
         background: url(../photos/blur_background.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
     }
     @media screen and (min-width: 1440px) {
         background: url(../photos/blur_background.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
     }
 }
 
@@ -41,10 +35,11 @@ header {
     color: #000;
     font-size: 26px;
     padding: 12px 30px;
+    border-radius: 10px;
+    transition: .4s background-color ease-in-out;
     
     &:hover {
-      background: rgba(255, 255, 255, 0.5);
-      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.5);
     }
     @media screen and (min-width: 768px) {
       font-size: 20px;

@@ -46,17 +46,11 @@ header {
 @media screen and (min-width: 768px) {
   header {
     background: url(../photos/blur_background.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
   }
 }
 @media screen and (min-width: 1440px) {
   header {
     background: url(../photos/blur_background.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
   }
 }
 
@@ -74,10 +68,11 @@ header {
   color: #000;
   font-size: 26px;
   padding: 12px 30px;
+  border-radius: 10px;
+  transition: 0.4s background-color ease-in-out;
 }
 .navigation_a:hover {
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 @media screen and (min-width: 768px) {
   .navigation_a {
@@ -243,13 +238,18 @@ label span::after {
   }
 }
 
+.roadster {
+  padding: 17px 31px 10px 11px;
+}
+
 @media screen and (min-width: 768px) {
   .roadster_ul {
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .roadster_ul {
     display: flex;
     flex-direction: row;
@@ -263,16 +263,9 @@ label span::after {
   font-size: 24px;
   line-height: 28px;
   color: #BA1235;
-  margin-left: 12px;
   margin-bottom: 10px;
-  margin-top: 10px;
 }
-@media screen and (min-width: 768px) {
-  .roadster_h1 {
-    margin-left: 39px;
-  }
-}
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .roadster_h1 {
     margin: 0;
     font-size: 36px;
@@ -288,17 +281,15 @@ label span::after {
   font-size: 19px;
   line-height: 30px;
   color: #000;
-  margin-left: 12px;
-  margin-bottom: 10px;
+  margin-bottom: 23px;
 }
 @media screen and (min-width: 768px) {
   .roadster_p {
     margin: 0;
-    width: 332px;
-    margin-left: 15px;
+    width: 320px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .roadster_p {
     margin: 0;
     width: 461px;
@@ -308,18 +299,15 @@ label span::after {
 .roadster_1 {
   height: 91px;
   width: 168px;
-  margin-left: 12px;
-  margin-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
   .roadster_1 {
-    margin: 0;
-    width: 230px;
-    height: 123px;
-    margin-bottom: 100px;
+    margin: 0 0 100px;
+    width: 220px;
+    height: 119px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .roadster_1 {
     margin: 0;
     margin-bottom: 140px;
@@ -331,219 +319,150 @@ label span::after {
 .roadster_2 {
   height: 74px;
   width: 121px;
-  margin-right: 12px;
-  margin-top: 70px;
+  margin-top: 75px;
 }
 @media screen and (min-width: 768px) {
   .roadster_2 {
-    margin: 0;
-    height: 93px;
-    width: 154px;
-    margin-top: 130px;
-    margin-left: 20px;
+    margin: 100px 0 0 22px;
+    width: 140px;
+    height: 84px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .roadster_2 {
     margin: 0;
     margin-top: 120px;
     width: 267px;
     height: 162px;
+    margin: 0 0 0 22px;
   }
 }
 
 .images_roadster {
-  height: 155px;
+  height: 149px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 @media screen and (min-width: 768px) {
   .images_roadster {
-    height: 313px;
-    width: 300px;
+    height: 300px;
     display: flex;
     justify-content: space-between;
-    margin-left: 10px;
+    margin-left: 22px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .images_roadster {
-    height: 461px;
-    width: 800px;
+    width: 665px;
+    height: 302px;
     display: flex;
     justify-content: space-around;
+    margin: 0;
   }
-}
-
-.H3-Cybertruck {
-  height: 37px;
-  font-family: "Rubik";
-  font-weight: 400;
-  font-size: 24px;
-  color: #000000;
-  margin-left: 2%;
 }
 
 .cybertruck {
-  width: 100%;
-  background: #F5F5F5;
-  padding-top: 5%;
-}
-.cybertruck div {
   display: flex;
+  flex-direction: column;
+  padding: 17px 31px 10px 11px;
 }
-.cybertruck div p {
-  line-height: 27px;
-  margin-left: 2%;
-  height: 204px;
-  width: 75%;
+
+.text-cybertruck h3 {
+  width: 208px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.text-cybertruck p {
+  width: 277px;
   font-family: "Jost";
+  font-style: normal;
   font-weight: 400;
   font-size: 19px;
+  line-height: 35px;
   color: #000000;
-}
-.cybertruck div p .cyber-comp {
-  display: none;
-}
-.cybertruck .cybertruck-image {
-  width: 100%;
+  margin-bottom: 23px;
 }
 
-.cybertruck-1 {
-  width: 265px;
-  background-image: url(../photos/cybertruck-1.png);
-  background-repeat: no-repeat;
-  margin-left: 5%;
+.image-cybertruck {
+  height: 149px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
-.cybertruck-2 {
-  margin: 10% 0 0 0;
-  width: 264px;
-  height: 100px;
-  background-image: url(../photos/cybertruck-2.png);
-  background-repeat: no-repeat;
-  margin-left: 5%;
+.image-cybertruck .cybertruck-1 {
+  width: 167px;
+  height: 90px;
+}
+.image-cybertruck .cybertruck-2 {
+  width: 121px;
+  height: 74px;
+  margin-top: 75px;
 }
 
 @media screen and (min-width: 768px) {
-  .H3-Cybertruck {
-    font-family: "Rubik";
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 47px;
-    color: #000000;
-  }
   .cybertruck {
-    width: 100%;
-    height: 461px;
-    background: #F5F5F5;
+    flex-direction: row;
+    justify-content: center;
   }
-  .cybertruck div {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 2%;
+  .text-cybertruck p {
+    width: 320px;
   }
-  .cybertruck div span {
-    margin-right: 10%;
+  .image-cybertruck {
+    height: 300px;
+    margin-left: 22px;
   }
-  .cybertruck div span p {
-    margin-top: 15%;
-    width: 260px;
-    height: 0;
-    font-family: "Jost";
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
-    color: #000000;
+  .image-cybertruck .cybertruck-1 {
+    width: 220px;
+    height: 119px;
   }
-  .cybertruck div span p .cyber-comp {
-    display: block;
-    font-weight: bold;
-  }
-  .cybertruck .cybertruck-image {
-    display: flex;
-    width: 95%;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  .cybertruck-1 {
-    margin-right: 1%;
-    margin-bottom: 25%;
-    width: 244px;
-    height: 142px;
-    background-size: 100%;
-    background-image: url(../photos/cybertruck-comp.png);
-  }
-  .cybertruck-2 {
-    width: 200px;
-    height: 107px;
-    background-size: 100%;
-    background-image: url(../photos/cybertruck-comp-2.png);
+  .image-cybertruck .cybertruck-2 {
+    width: 140px;
+    height: 84px;
+    margin-top: 100px;
+    margin-left: 22px;
   }
 }
-@media screen and (min-width: 1440px) {
-  .H3-Cybertruck {
-    font-family: "Rubik";
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 47px;
-    color: #000000;
-  }
+@media screen and (min-width: 1200px) {
   .cybertruck {
-    width: 100%;
-    height: 461px;
-    background: #F5F5F5;
+    flex-direction: row-reverse;
+    justify-content: space-around;
   }
-  .cybertruck div {
-    display: flex;
-    justify-content: flex-end;
-  }
-  .cybertruck div span {
-    margin-right: 10%;
-  }
-  .cybertruck div span p {
-    margin-top: 15%;
-    width: 360px;
-    height: 0;
-    font-family: "Jost";
-    font-weight: 400;
+  .text-cybertruck p {
+    width: 400px;
     font-size: 24px;
     line-height: 35px;
-    color: #000000;
   }
-  .cybertruck div span p .cyber-comp {
-    display: block;
-    font-weight: bold;
+  .text-cybertruck h3 {
+    width: 332px;
+    font-size: 40px;
+    line-height: 47px;
   }
-  .cybertruck .cybertruck-image {
-    height: 400px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  .image-cybertruck {
+    width: 665px;
+    height: 302px;
+    margin: 0;
   }
-  .cybertruck-1 {
-    margin-right: 5%;
-    margin-bottom: 25%;
+  .image-cybertruck .cybertruck-1 {
     width: 365px;
     height: 197px;
-    background-image: url(../photos/cybertruck-comp.png);
   }
-  .cybertruck-2 {
-    margin: 0;
+  .image-cybertruck .cybertruck-2 {
     width: 264px;
     height: 162px;
-    background-image: url(../photos/cybertruck-comp-2.png);
   }
 }
 .our_companies {
   width: 100%;
   background: #B1C7E5;
   text-align: center;
-  margin-top: 20%;
 }
 .our_companies h2 {
-  padding: 5% 0 0 0;
+  padding: 17px 0 0;
   font-family: "Comfortaa";
   font-weight: 400;
   font-size: 24px;
@@ -784,6 +703,15 @@ label span::after {
   display: flex;
   flex-direction: column;
 }
+.product h2 {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
 
 .gallery-section {
   height: 336px;
@@ -825,6 +753,10 @@ label span::after {
 }
 
 @media screen and (min-width: 768px) {
+  .product h2 {
+    font-size: 48px;
+    line-height: 54px;
+  }
   .gallery-section {
     width: 617px;
     height: 221px;
@@ -1023,7 +955,7 @@ footer .top-footer {
     font-size: 24px;
   }
 }
-h2 {
+.team {
   font-family: "Comfortaa";
   font-weight: 400;
   font-size: 32px;
@@ -1367,6 +1299,7 @@ h2 {
   font-size: 16px;
   padding: 15px 94px 15px 94px;
   margin: 23px 0 30px 16px;
+  transition: 0.4s color, 0.4s background-color;
 }
 @media screen and (min-width: 1440px) {
   .newsletter_button {
@@ -1376,5 +1309,4 @@ h2 {
 .newsletter_button:hover {
   color: #000;
   background-color: #FFFFFF;
-  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
