@@ -83,6 +83,7 @@
     font-size: 16px;
     padding: 15px 94px 15px 94px;
     margin: 23px 0 30px 16px;
+    transition: .4s color, .4s background-color;
     @media screen and (min-width: 1440px) {
         width: 424px;
     }
@@ -90,6 +91,5 @@
     &:hover {
         color: #000;
         background-color: #FFFFFF;
-        font-weight: bold;
     }
 }
