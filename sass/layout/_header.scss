@@ -13,11 +13,10 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 10px;
     @media screen and (min-width: 768px) {
         background: url(../photos/blur_background.png);
-    }
-    @media screen and (min-width: 1440px) {
-        background: url(../photos/blur_background.png);
+        padding-top: 10px;
     }
 }
 
@@ -34,7 +33,7 @@ header {
     font-weight: 400;
     color: #000;
     font-size: 26px;
-    padding: 12px 30px;
+    padding: 12px 25px;
     border-radius: 10px;
     transition: .4s background-color ease-in-out;
     
@@ -56,9 +55,6 @@ header {
 // ============================================================= nav_menu ============================================================================
 .nav_mobile {
     @media screen and (min-width: 768px) {
-        display: none;
-    }
-    @media screen and (min-width: 1440px) {
         display: none;
     }
 }
@@ -207,6 +203,6 @@ nav {
     }
     @media screen and (min-width:1440px) {
         font-size: 50px;
-         padding: 54px 20px 34px 20px;
+        padding: 54px 20px 34px 20px;
     }
   }

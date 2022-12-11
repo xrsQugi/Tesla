@@ -42,15 +42,12 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 10px;
 }
 @media screen and (min-width: 768px) {
   header {
     background: url(../photos/blur_background.png);
-  }
-}
-@media screen and (min-width: 1440px) {
-  header {
-    background: url(../photos/blur_background.png);
+    padding-top: 10px;
   }
 }
 
@@ -67,7 +64,7 @@ header {
   font-weight: 400;
   color: #000;
   font-size: 26px;
-  padding: 12px 30px;
+  padding: 12px 25px;
   border-radius: 10px;
   transition: 0.4s background-color ease-in-out;
 }
@@ -91,11 +88,6 @@ header {
 }
 
 @media screen and (min-width: 768px) {
-  .nav_mobile {
-    display: none;
-  }
-}
-@media screen and (min-width: 1440px) {
   .nav_mobile {
     display: none;
   }
