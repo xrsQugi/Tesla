@@ -241,6 +241,11 @@ label span::after {
 .roadster {
   padding: 17px 31px 10px 11px;
 }
+@media screen and (min-width: 1200px) {
+  .roadster {
+    padding-top: 49px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .roadster_ul {
@@ -269,7 +274,6 @@ label span::after {
   .roadster_h1 {
     margin: 0;
     font-size: 36px;
-    margin-top: 49px;
     margin-bottom: 50px;
   }
 }
