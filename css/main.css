@@ -456,242 +456,124 @@ label span::after {
 .our_companies {
   width: 100%;
   background: #B1C7E5;
-  text-align: center;
+  padding: 17px 0;
 }
 .our_companies h2 {
-  padding: 17px 0 0;
   font-family: "Comfortaa";
   font-weight: 400;
   font-size: 24px;
   line-height: 27px;
   color: #000000;
+  text-align: center;
 }
 .our_companies .companies {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 17px;
 }
 .our_companies .companie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 279px;
-  height: 400px;
   background: #FFFFFF;
-  margin: 5% 0;
-  transition: 0.5s;
+  padding-bottom: 20px;
 }
-.our_companies .companie button {
-  box-sizing: border-box;
-  width: 182px;
-  height: 47px;
+.our_companies .companie a {
+  padding: 10px 17px;
+  width: 140px;
   border: 1px solid #000000;
   background-color: white;
+  color: #000000;
   border-radius: 20px;
   font-family: "Comfortaa";
   font-weight: 400;
   font-size: 18px;
   text-align: center;
-  transition: 0.4s background-color ease-in-out;
+  transition: 0.4s background-color ease-in-out, 0.4s color ease-in-out;
 }
-.our_companies .companie button:hover {
+.our_companies .companie a:hover {
   background-color: #000000;
   color: #FFFFFF;
 }
-.our_companies .companie button:hover a {
-  color: #FFFFFF;
-}
-.our_companies .companie button a {
-  width: 182px;
-  height: 47px;
-  color: #000000;
-  transition: 0.4s color ease-in-out;
+.our_companies .companie .neura-text {
+  width: 200px;
 }
 .our_companies .companie h4 {
-  margin: 10px 0 10px 0;
-  width: 279px;
-  height: 50px;
+  margin: 10px 0;
+  width: 220px;
   font-family: "Comfortaa";
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
-  text-align: center;
   color: #000000;
+  text-align: center;
 }
-.our_companies .companie .image-comp-1 {
+.our_companies .companie .image-comp {
   width: 279px;
   height: 264px;
+}
+.our_companies .companie .spacex {
   background-image: url(../photos/space-x.png);
 }
-.our_companies .companie .image-comp-2 {
-  width: 279px;
-  height: 264px;
-  background-image: url(../photos/neuralink\ \(2\).png);
+.our_companies .companie .neuralink {
+  background-image: url(../photos/neuralink.png);
 }
-.our_companies .companie .image-comp-3 {
-  width: 279px;
-  height: 264px;
+.our_companies .companie .openai {
   background-image: url(../photos/open-ai.png);
 }
 
 @media screen and (min-width: 768px) {
-  .our_companies {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background: #B1C7E5;
-    text-align: center;
-    margin-top: 0;
-  }
   .our_companies h2 {
-    margin: 0;
-    padding: 5% 0;
-    font-family: "Comfortaa";
-    font-weight: 400;
     font-size: 32px;
     line-height: 27px;
-    color: #000000;
   }
   .our_companies .companies {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     gap: 35px;
   }
-  .our_companies .companie {
-    width: 279px;
-    height: 400px;
-    background: #FFFFFF;
-    transition: 0.5s;
-    margin: 2%;
-  }
-  .our_companies .companie button {
-    box-sizing: border-box;
-    width: 182px;
-    height: 47px;
-    border: 1px solid #000000;
-    background-color: white;
-    border-radius: 20px;
-    font-family: "Comfortaa";
-    font-weight: 400;
+  .our_companies .companie a {
     font-size: 22px;
-    text-align: center;
-    transition: 0.4s background-color ease-in-out;
-  }
-  .our_companies .companie button:hover {
-    background-color: #000000;
-    color: #FFFFFF;
-  }
-  .our_companies .companie button:hover a {
-    color: #FFFFFF;
-  }
-  .our_companies .companie button a {
-    width: 182px;
-    height: 47px;
-    color: #000000;
-    transition: 0.4s color ease-in-out;
   }
   .our_companies .companie h4 {
-    margin: 10px 0 10px 0;
-    width: 279px;
-    height: 50px;
-    font-family: "Comfortaa";
-    font-weight: 400;
     font-size: 20px;
     line-height: 20px;
-    text-align: center;
-    color: #000000;
-  }
-  .our_companies .companie .image-comp-1 {
-    width: 279px;
-    height: 264px;
-    background-image: url(../photos/space-x.png);
-  }
-  .our_companies .companie .image-comp-2 {
-    width: 279px;
-    height: 264px;
-    background-image: url(../photos/neuralink\ \(2\).png);
-  }
-  .our_companies .companie .image-comp-3 {
-    width: 279px;
-    height: 264px;
-    background-image: url(../photos/open-ai.png);
   }
 }
-@media screen and (min-width: 1440px) {
-  .our_companies {
-    width: 100%;
-    height: 860px;
-    background: #B1C7E5;
-    margin: 0;
-  }
+@media screen and (min-width: 1200px) {
   .our_companies h2 {
-    margin: 0;
-    font-family: "Comfortaa";
-    font-weight: 400;
     font-size: 48px;
-    text-align: center;
-    color: #000000;
-    margin-bottom: 5%;
   }
   .our_companies .companies {
-    position: relative;
-    display: flex;
-    justify-content: center;
     gap: 35px;
-    justify-content: space-around;
   }
   .our_companies .companie {
-    margin: 15px;
     width: 365px;
-    height: 520px;
-    background: #FFFFFF;
-    transition: 0.5s;
-    text-align: center;
-    margin: 0 1%;
+    padding-bottom: 26px;
   }
-  .our_companies .companie button {
-    margin-top: 5%;
-    border: 1px solid #000000;
-    border-radius: 20px;
+  .our_companies .companie a {
     width: 193px;
-    font-family: "Comfortaa";
-    font-weight: 400;
+    padding: 12px 21px;
     font-size: 24px;
-    color: #000000;
-    transition: 0.5s;
-  }
-  .our_companies .companie button a {
-    width: 235px;
-    height: 59px;
-    color: #000000;
-    transition: 0.4s color ease-in-out;
-  }
-  .our_companies .companie button a:hover {
-    color: white;
-  }
-  .our_companies .companie button:hover {
-    background-color: #000000;
-    color: white;
   }
   .our_companies .companie h4 {
-    width: 100%;
-    font-family: "Comfortaa";
-    font-weight: 400;
+    margin: 14px;
+    width: 342px;
     font-size: 24px;
     line-height: 27px;
-    color: #000000;
   }
-  .our_companies .companie .image-comp-1 {
+  .our_companies .companie .image-comp {
     width: 365px;
     height: 345px;
+  }
+  .our_companies .companie .spacex {
     background: url(../photos/space-x-comp.png);
   }
-  .our_companies .companie .image-comp-2 {
-    width: 365px;
-    height: 345px;
+  .our_companies .companie .neuralink {
     background: url(../photos/neuralink-comp.png);
   }
-  .our_companies .companie .image-comp-3 {
-    width: 365px;
-    height: 345px;
+  .our_companies .companie .openai {
     background: url(../photos/open-ai-comp.png);
   }
 }
