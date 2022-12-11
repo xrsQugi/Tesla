@@ -526,11 +526,15 @@ label span::after {
 }
 
 @media screen and (min-width: 768px) {
+  .our_companies {
+    padding: 35px 0;
+  }
   .our_companies h2 {
     font-size: 32px;
     line-height: 27px;
   }
   .our_companies .companies {
+    margin-top: 35px;
     gap: 35px;
   }
   .our_companies .companie a {
@@ -542,8 +546,12 @@ label span::after {
   }
 }
 @media screen and (min-width: 1200px) {
+  .our_companies {
+    padding: 55px 0;
+  }
   .our_companies h2 {
     font-size: 48px;
+    margin: 0 0 55px;
   }
   .our_companies .companies {
     gap: 35px;
