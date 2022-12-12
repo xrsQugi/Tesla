@@ -17,6 +17,9 @@ header {
     @media screen and (min-width: 768px) {
         background: url(../photos/blur_background.png);
         padding-top: 10px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 }
 
